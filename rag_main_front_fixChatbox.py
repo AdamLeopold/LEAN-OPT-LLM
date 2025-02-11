@@ -15,13 +15,6 @@ import os
 import pandas as pd
 
 user_api_key="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"
-langchain_api_key = os.getenv('LANGCHAIN_API_KEY')
-langchain_tracing_v2 = os.getenv('LANGCHAIN_TRACING_V2', 'true')
-langchain_endpoint = os.getenv('LANGCHAIN_ENDPOINT', 'https://api.smith.langchain.com')
-os.environ['LANGCHAIN_TRACING_V2'] = langchain_tracing_v2
-os.environ['LANGCHAIN_ENDPOINT'] = langchain_endpoint
-os.environ['LANGCHAIN_API_KEY'] = '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'
-
 
 uploaded_files = st.sidebar.file_uploader("upload", type="csv", accept_multiple_files=True)
 
