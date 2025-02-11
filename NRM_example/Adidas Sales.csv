@@ -1,0 +1,421 @@
+Product Name,Revenue,Demand,Initial Inventory
+Men's Apparel_16.0,1.6,156,1140
+Men's Apparel_18.0,1.8,149,1110
+Men's Apparel_19.0,1.9,214,1760
+Men's Apparel_20.0,20,780,5930
+Men's Apparel_21.0,2.1,129,910
+Men's Apparel_22.0,2.2,406,3050
+Men's Apparel_23.0,2.3,855,6240
+Men's Apparel_24.0,2.4,636,4540
+Men's Apparel_25.0,25,2292,16820
+Men's Apparel_26.0,2.6,1095,8090
+Men's Apparel_27.0,2.7,591,4400
+Men's Apparel_28.0,2.8,1576,11520
+Men's Apparel_29.0,2.9,1549,11500
+Men's Apparel_30.0,30,4935,36670
+Men's Apparel_31.0,3.1,363,2770
+Men's Apparel_32.0,3.2,1906,14090
+Men's Apparel_33.0,3.3,1915,14280
+Men's Apparel_34.0,3.4,2140,15780
+Men's Apparel_35.0,35,13729,101360
+Men's Apparel_36.0,3.6,2457,18440
+Men's Apparel_37.0,3.7,2429,18570
+Men's Apparel_38.0,3.8,3436,25610
+Men's Apparel_39.0,3.9,3354,24560
+Men's Apparel_40.0,40,19179,144840
+Men's Apparel_41.0,4.1,5294,38950
+Men's Apparel_42.0,4.2,4487,33110
+Men's Apparel_43.0,4.3,6551,48070
+Men's Apparel_44.0,4.4,3875,28990
+Men's Apparel_45.0,4.5,36736,275090
+Men's Apparel_46.0,4.6,3984,29080
+Men's Apparel_47.0,4.7,6087,44070
+Men's Apparel_48.0,4.8,3385,25120
+Men's Apparel_49.0,4.9,3532,26070
+Men's Apparel_50.0,5,47925,358350
+Men's Apparel_51.0,5.1,4502,32990
+Men's Apparel_52.0,5.2,2854,21390
+Men's Apparel_53.0,5.3,3206,23250
+Men's Apparel_54.0,5.4,3737,28230
+Men's Apparel_55.0,5.5,50883,375700
+Men's Apparel_56.0,5.6,2492,18360
+Men's Apparel_57.0,5.7,1116,8120
+Men's Apparel_58.0,5.8,3109,22650
+Men's Apparel_59.0,5.9,4505,33110
+Men's Apparel_60.0,6,42176,311500
+Men's Apparel_61.0,6.1,1173,8100
+Men's Apparel_62.0,6.2,2551,18260
+Men's Apparel_63.0,6.3,1349,9890
+Men's Apparel_64.0,6.4,3380,25060
+Men's Apparel_65.0,6.5,41243,305340
+Men's Apparel_66.0,6.6,781,5630
+Men's Apparel_67.0,6.7,909,6760
+Men's Apparel_68.0,6.8,1756,13340
+Men's Apparel_69.0,6.9,1105,8420
+Men's Apparel_70.0,7,14739,111530
+Men's Apparel_71.0,7.1,1024,7700
+Men's Apparel_72.0,7.2,1023,7500
+Men's Apparel_73.0,7.3,411,3320
+Men's Apparel_74.0,7.4,680,5080
+Men's Apparel_75.0,75,11435,84000
+Men's Apparel_76.0,7.6,183,1380
+Men's Apparel_77.0,7.7,400,2680
+Men's Apparel_80.0,8,3324,24740
+Men's Apparel_81.0,8.1,148,1040
+Men's Apparel_82.0,8.2,475,3690
+Men's Apparel_83.0,8.3,255,2010
+Men's Apparel_84.0,8.4,387,2840
+Men's Apparel_85.0,8.5,4956,35020
+Men's Apparel_86.0,8.6,578,4440
+Men's Apparel_89.0,8.9,448,3210
+Men's Apparel_90.0,90,5182,38500
+Men's Apparel_92.0,9.2,164,1170
+Men's Apparel_95.0,95,2891,22000
+Men's Apparel_nan,60,1726,13500
+Men's Athletic Footwear_11.0,1.1,290,2120
+Men's Athletic Footwear_14.0,1.4,1466,10630
+Men's Athletic Footwear_15.0,15,1524,11810
+Men's Athletic Footwear_16.0,1.6,675,5250
+Men's Athletic Footwear_17.0,1.7,858,6380
+Men's Athletic Footwear_18.0,1.8,874,6360
+Men's Athletic Footwear_19.0,1.9,1718,13070
+Men's Athletic Footwear_20.0,20,9515,71580
+Men's Athletic Footwear_21.0,2.1,883,6480
+Men's Athletic Footwear_22.0,2.2,1259,8980
+Men's Athletic Footwear_23.0,2.3,2800,20920
+Men's Athletic Footwear_24.0,2.4,1246,9470
+Men's Athletic Footwear_25.0,25,13314,101120
+Men's Athletic Footwear_26.0,2.6,801,5970
+Men's Athletic Footwear_27.0,2.7,2671,19940
+Men's Athletic Footwear_28.0,2.8,4342,32100
+Men's Athletic Footwear_29.0,2.9,4932,36810
+Men's Athletic Footwear_30.0,30,26851,194280
+Men's Athletic Footwear_31.0,3.1,2143,16110
+Men's Athletic Footwear_32.0,3.2,5294,38330
+Men's Athletic Footwear_33.0,3.3,5292,39310
+Men's Athletic Footwear_34.0,3.4,5297,38660
+Men's Athletic Footwear_35.0,3.5,35569,260490
+Men's Athletic Footwear_36.0,3.6,4856,35900
+Men's Athletic Footwear_37.0,3.7,8118,60300
+Men's Athletic Footwear_38.0,3.8,5533,40690
+Men's Athletic Footwear_39.0,3.9,6157,46240
+Men's Athletic Footwear_40.0,4,41727,309970
+Men's Athletic Footwear_41.0,4.1,7086,51750
+Men's Athletic Footwear_42.0,4.2,8481,62830
+Men's Athletic Footwear_43.0,4.3,6160,46010
+Men's Athletic Footwear_44.0,4.4,6068,44760
+Men's Athletic Footwear_45.0,4.5,67249,494530
+Men's Athletic Footwear_46.0,4.6,5738,42870
+Men's Athletic Footwear_47.0,4.7,6669,48540
+Men's Athletic Footwear_48.0,4.8,3336,25610
+Men's Athletic Footwear_49.0,4.9,5136,37700
+Men's Athletic Footwear_50.0,5,71223,524780
+Men's Athletic Footwear_51.0,5.1,5739,42850
+Men's Athletic Footwear_52.0,5.2,2290,16820
+Men's Athletic Footwear_53.0,5.3,4223,31440
+Men's Athletic Footwear_54.0,5.4,4834,35910
+Men's Athletic Footwear_55.0,5.5,63295,465780
+Men's Athletic Footwear_56.0,5.6,2708,19800
+Men's Athletic Footwear_57.0,5.7,832,6420
+Men's Athletic Footwear_58.0,5.8,4606,33870
+Men's Athletic Footwear_59.0,5.9,2411,18250
+Men's Athletic Footwear_60.0,6,46077,340850
+Men's Athletic Footwear_61.0,6.1,1024,7370
+Men's Athletic Footwear_62.0,6.2,1932,14420
+Men's Athletic Footwear_63.0,6.3,326,2480
+Men's Athletic Footwear_64.0,6.4,1484,10800
+Men's Athletic Footwear_65.0,6.5,24889,186600
+Men's Athletic Footwear_66.0,6.6,741,5740
+Men's Athletic Footwear_67.0,6.7,622,4360
+Men's Athletic Footwear_69.0,6.9,433,3170
+Men's Athletic Footwear_70.0,70,7911,58000
+Men's Athletic Footwear_71.0,7.1,640,4800
+Men's Athletic Footwear_72.0,7.2,772,5900
+Men's Athletic Footwear_73.0,7.3,260,1890
+Men's Athletic Footwear_74.0,7.4,945,6760
+Men's Athletic Footwear_75.0,75,6368,44500
+Men's Athletic Footwear_76.0,7.6,582,4350
+Men's Athletic Footwear_77.0,7.7,1394,10320
+Men's Athletic Footwear_80.0,80,5111,37250
+Men's Athletic Footwear_81.0,8.1,472,3850
+Men's Athletic Footwear_82.0,8.2,558,3820
+Men's Athletic Footwear_85.0,8.5,7391,54210
+Men's Athletic Footwear_88.0,8.8,335,2250
+Men's Athletic Footwear_90.0,90,2069,14000
+Men's Athletic Footwear_92.0,9.2,247,2030
+Men's Athletic Footwear_95.0,95,2035,15000
+Men's Street Footwear_10.0,10,994,7000
+Men's Street Footwear_12.0,1.2,299,2470
+Men's Street Footwear_13.0,1.3,899,6670
+Men's Street Footwear_14.0,1.4,1404,9920
+Men's Street Footwear_15.0,1.5,1915,13610
+Men's Street Footwear_16.0,1.6,485,3720
+Men's Street Footwear_17.0,1.7,1117,7790
+Men's Street Footwear_18.0,1.8,2858,20550
+Men's Street Footwear_19.0,1.9,3007,22270
+Men's Street Footwear_20.0,20,18752,140030
+Men's Street Footwear_21.0,2.1,1246,9530
+Men's Street Footwear_22.0,2.2,712,5240
+Men's Street Footwear_23.0,2.3,4850,35160
+Men's Street Footwear_24.0,2.4,4723,34990
+Men's Street Footwear_25.0,2.5,20464,152820
+Men's Street Footwear_26.0,2.6,1987,15500
+Men's Street Footwear_27.0,2.7,5849,43930
+Men's Street Footwear_28.0,2.8,7308,55040
+Men's Street Footwear_29.0,2.9,6178,46790
+Men's Street Footwear_30.0,3,39262,292960
+Men's Street Footwear_31.0,3.1,3330,24090
+Men's Street Footwear_32.0,3.2,6536,48290
+Men's Street Footwear_33.0,3.3,6424,48390
+Men's Street Footwear_34.0,3.4,8056,59490
+Men's Street Footwear_35.0,3.5,53978,408720
+Men's Street Footwear_36.0,3.6,8626,63830
+Men's Street Footwear_37.0,3.7,5627,42030
+Men's Street Footwear_38.0,3.8,7354,53740
+Men's Street Footwear_39.0,3.9,7838,59620
+Men's Street Footwear_40.0,4,68363,503470
+Men's Street Footwear_41.0,4.1,10451,77880
+Men's Street Footwear_42.0,4.2,3928,28830
+Men's Street Footwear_43.0,4.3,4823,35300
+Men's Street Footwear_44.0,4.4,9722,70750
+Men's Street Footwear_45.0,4.5,67522,501530
+Men's Street Footwear_46.0,4.6,6984,51210
+Men's Street Footwear_47.0,4.7,8549,63440
+Men's Street Footwear_48.0,4.8,6605,48980
+Men's Street Footwear_49.0,4.9,8010,59120
+Men's Street Footwear_50.0,5,85301,633540
+Men's Street Footwear_51.0,5.1,6737,49860
+Men's Street Footwear_52.0,5.2,3680,27750
+Men's Street Footwear_53.0,5.3,3738,28550
+Men's Street Footwear_54.0,5.4,3423,25960
+Men's Street Footwear_55.0,5.5,72479,539160
+Men's Street Footwear_56.0,5.6,5347,40030
+Men's Street Footwear_57.0,5.7,1475,11260
+Men's Street Footwear_58.0,5.8,5377,39610
+Men's Street Footwear_59.0,5.9,4409,33050
+Men's Street Footwear_60.0,6,76303,556870
+Men's Street Footwear_61.0,6.1,1263,9470
+Men's Street Footwear_62.0,6.2,3854,27570
+Men's Street Footwear_63.0,6.3,1726,12640
+Men's Street Footwear_64.0,6.4,2604,19690
+Men's Street Footwear_65.0,65,47916,355150
+Men's Street Footwear_66.0,6.6,339,2630
+Men's Street Footwear_67.0,6.7,1557,10990
+Men's Street Footwear_68.0,6.8,2049,14480
+Men's Street Footwear_69.0,6.9,905,6700
+Men's Street Footwear_7.0,0.7,323,2240
+Men's Street Footwear_70.0,7,14915,112060
+Men's Street Footwear_71.0,7.1,486,3640
+Men's Street Footwear_72.0,7.2,267,2160
+Men's Street Footwear_73.0,7.3,675,4940
+Men's Street Footwear_74.0,7.4,312,2080
+Men's Street Footwear_75.0,75,6740,51750
+Men's Street Footwear_78.0,7.8,229,1880
+Men's Street Footwear_79.0,7.9,949,7200
+Men's Street Footwear_80.0,8,3492,25920
+Men's Street Footwear_81.0,8.1,252,2000
+Men's Street Footwear_83.0,8.3,734,5010
+Men's Street Footwear_85.0,85,4203,32250
+Men's Street Footwear_86.0,8.6,707,5250
+Men's Street Footwear_87.0,8.7,258,2130
+Men's Street Footwear_9.0,0.9,265,2030
+Men's Street Footwear_90.0,90,4360,34000
+Men's Street Footwear_95.0,95,2295,17000
+Men's aparel_60.0,60,1281,9000
+Women's Apparel_100.0,10,3763,26450
+Women's Apparel_101.0,10.1,238,1630
+Women's Apparel_103.0,10.3,530,3810
+Women's Apparel_105.0,105,3738,26000
+Women's Apparel_110.0,110,3448,28000
+Women's Apparel_14.0,1.4,586,4100
+Women's Apparel_15.0,15,695,5000
+Women's Apparel_16.0,1.6,202,1450
+Women's Apparel_17.0,1.7,326,2550
+Women's Apparel_18.0,1.8,1524,11060
+Women's Apparel_19.0,1.9,267,1900
+Women's Apparel_20.0,20,4150,31820
+Women's Apparel_21.0,2.1,199,1400
+Women's Apparel_22.0,2.2,996,7090
+Women's Apparel_23.0,2.3,1321,9700
+Women's Apparel_24.0,2.4,2463,17960
+Women's Apparel_25.0,25,9505,70590
+Women's Apparel_26.0,2.6,1981,14470
+Women's Apparel_27.0,2.7,1709,13010
+Women's Apparel_28.0,2.8,2694,19560
+Women's Apparel_29.0,2.9,3389,25300
+Women's Apparel_30.0,30,15891,115700
+Women's Apparel_31.0,3.1,824,5950
+Women's Apparel_32.0,3.2,4511,34000
+Women's Apparel_33.0,3.3,4222,31120
+Women's Apparel_34.0,3.4,3228,23960
+Women's Apparel_35.0,35,28044,207790
+Women's Apparel_36.0,3.6,5197,39540
+Women's Apparel_37.0,3.7,3307,23540
+Women's Apparel_38.0,3.8,4088,30600
+Women's Apparel_39.0,3.9,4266,32200
+Women's Apparel_40.0,4,32719,243970
+Women's Apparel_41.0,4.1,4741,35000
+Women's Apparel_42.0,4.2,3906,28440
+Women's Apparel_43.0,4.3,3559,26830
+Women's Apparel_44.0,4.4,4198,30270
+Women's Apparel_45.0,4.5,34868,262450
+Women's Apparel_46.0,4.6,5728,41650
+Women's Apparel_47.0,4.7,4487,33510
+Women's Apparel_48.0,4.8,4194,31610
+Women's Apparel_49.0,4.9,5183,38230
+Women's Apparel_50.0,5,38339,283510
+Women's Apparel_51.0,5.1,5497,40290
+Women's Apparel_52.0,5.2,3633,27140
+Women's Apparel_53.0,5.3,5501,40510
+Women's Apparel_54.0,5.4,5372,39230
+Women's Apparel_55.0,5.5,48825,363680
+Women's Apparel_56.0,5.6,5750,43110
+Women's Athletic Footwear_10.0,10,578,4130
+Women's Athletic Footwear_12.0,1.2,266,1870
+Women's Athletic Footwear_13.0,1.3,630,4790
+Women's Athletic Footwear_14.0,1.4,735,5460
+Women's Athletic Footwear_15.0,15,2949,22090
+Women's Athletic Footwear_16.0,1.6,761,5460
+Women's Athletic Footwear_18.0,1.8,695,5030
+Women's Athletic Footwear_19.0,1.9,1938,14150
+Women's Athletic Footwear_20.0,20,10491,77950
+Women's Athletic Footwear_21.0,2.1,188,1530
+Women's Athletic Footwear_22.0,2.2,222,1590
+Women's Athletic Footwear_23.0,2.3,1720,12520
+Women's Athletic Footwear_24.0,2.4,1959,14390
+Women's Athletic Footwear_25.0,25,12629,92210
+Women's Athletic Footwear_26.0,2.6,2095,15060
+Women's Athletic Footwear_27.0,2.7,2172,15920
+Women's Athletic Footwear_28.0,2.8,1844,13720
+Women's Athletic Footwear_29.0,2.9,4030,29320
+Women's Athletic Footwear_30.0,30,16409,120890
+Women's Athletic Footwear_31.0,3.1,2139,15640
+Women's Athletic Footwear_32.0,3.2,4810,35400
+Women's Athletic Footwear_33.0,3.3,5807,42450
+Women's Athletic Footwear_34.0,3.4,5238,39120
+Women's Athletic Footwear_35.0,3.5,29672,223600
+Women's Athletic Footwear_36.0,3.6,5379,40080
+Women's Athletic Footwear_37.0,3.7,3960,29490
+Women's Athletic Footwear_38.0,3.8,6455,47210
+Women's Athletic Footwear_39.0,3.9,4597,34320
+Women's Athletic Footwear_40.0,4,44120,323550
+Women's Athletic Footwear_41.0,4.1,7000,52680
+Women's Athletic Footwear_42.0,4.2,3127,23640
+Women's Athletic Footwear_43.0,4.3,5056,36820
+Women's Athletic Footwear_44.0,4.4,5342,40030
+Women's Athletic Footwear_45.0,45,51065,378510
+Women's Athletic Footwear_46.0,4.6,2680,19690
+Women's Athletic Footwear_47.0,4.7,5163,38880
+Women's Athletic Footwear_48.0,4.8,3214,23960
+Women's Athletic Footwear_49.0,4.9,3106,22690
+Women's Athletic Footwear_50.0,5,49555,368240
+Women's Athletic Footwear_51.0,5.1,2406,17980
+Women's Athletic Footwear_52.0,5.2,2804,20860
+Women's Athletic Footwear_53.0,5.3,3349,24720
+Women's Athletic Footwear_54.0,5.4,2622,19130
+Women's Athletic Footwear_55.0,5.5,36401,272170
+Women's Athletic Footwear_56.0,5.6,1018,7480
+Women's Athletic Footwear_57.0,5.7,530,3960
+Women's Athletic Footwear_58.0,5.8,1306,9540
+Women's Athletic Footwear_59.0,5.9,2752,20420
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+Women's Street Footwear_10.0,10,3305,24490
+Women's Street Footwear_11.0,1.1,1629,11870
+Women's Street Footwear_12.0,1.2,416,3050
+Women's Street Footwear_13.0,1.3,303,2180
+Women's Street Footwear_14.0,1.4,2811,20480
+Women's Street Footwear_15.0,15,11277,84020
+Women's Street Footwear_16.0,1.6,389,2830
+Women's Street Footwear_17.0,1.7,310,2260
+Women's Street Footwear_18.0,1.8,1342,9800
+Women's Street Footwear_19.0,1.9,3902,28510
+Women's Street Footwear_20.0,20,14777,110590
+Women's Street Footwear_21.0,2.1,544,4100
+Women's Street Footwear_22.0,2.2,575,4110
+Women's Street Footwear_23.0,2.3,4026,29980
+Women's Street Footwear_24.0,2.4,4459,32920
+Women's Street Footwear_25.0,25,24676,180340
+Women's Street Footwear_26.0,2.6,1181,8840
+Women's Street Footwear_27.0,2.7,4536,34180
+Women's Street Footwear_28.0,2.8,3427,25110
+Women's Street Footwear_29.0,2.9,4396,31750
+Women's Street Footwear_30.0,3,25880,191310
+Women's Street Footwear_31.0,3.1,1563,10980
+Women's Street Footwear_32.0,3.2,6693,49540
+Women's Street Footwear_33.0,3.3,5615,40930
+Women's Street Footwear_34.0,3.4,4502,32450
+Women's Street Footwear_35.0,3.5,30335,224030
+Women's Street Footwear_36.0,3.6,5964,44270
+Women's Street Footwear_37.0,3.7,5589,41280
+Women's Street Footwear_38.0,3.8,4630,34360
+Women's Street Footwear_39.0,3.9,6774,50370
+Women's Street Footwear_40.0,4,44157,323880
+Women's Street Footwear_41.0,4.1,5889,42650
+Women's Street Footwear_42.0,4.2,4911,36340
+Women's Street Footwear_43.0,4.3,4838,35760
+Women's Street Footwear_44.0,4.4,5607,41010
+Women's Street Footwear_45.0,4.5,49942,369750
+Women's Street Footwear_46.0,4.6,7855,59160
+Women's Street Footwear_47.0,4.7,6575,48880
+Women's Street Footwear_48.0,4.8,2567,19460
+Women's Street Footwear_49.0,4.9,3360,24390
+Women's Street Footwear_50.0,5,59708,448510
+Women's Street Footwear_51.0,5.1,3623,26620
+Women's Street Footwear_52.0,5.2,3223,23700
+Women's Street Footwear_53.0,5.3,2786,20800
+Women's Street Footwear_54.0,5.4,2987,21990
+Women's Street Footwear_55.0,5.5,46703,349850
+Women's Street Footwear_56.0,5.6,1470,11130
+Women's Street Footwear_57.0,5.7,523,3990
+Women's Street Footwear_58.0,5.8,1047,7550
+Women's Street Footwear_59.0,5.9,2042,15170
+Women's Street Footwear_60.0,6,26152,193170
+Women's Street Footwear_61.0,6.1,670,4960
+Women's Street Footwear_62.0,6.2,1553,11490
+Women's Street Footwear_63.0,6.3,742,5310
+Women's Street Footwear_64.0,6.4,1824,13660
+Women's Street Footwear_65.0,65,20072,151150
+Women's Street Footwear_66.0,6.6,457,3410
+Women's Street Footwear_67.0,6.7,635,4690
+Women's Street Footwear_68.0,6.8,237,1950
+Women's Street Footwear_69.0,6.9,777,5610
+Women's Street Footwear_7.0,0.7,239,1880
+Women's Street Footwear_70.0,7,6901,51640
+Women's Street Footwear_71.0,7.1,226,1800
+Women's Street Footwear_72.0,7.2,496,4010
+Women's Street Footwear_73.0,7.3,688,4960
+Women's Street Footwear_74.0,7.4,333,2550
+Women's Street Footwear_75.0,7.5,4043,30990
+Women's Street Footwear_78.0,7.8,706,5530
+Women's Street Footwear_79.0,7.9,193,1500
+Women's Street Footwear_8.0,0.8,154,1120
+Women's Street Footwear_80.0,8,5847,44850
+Women's Street Footwear_83.0,8.3,282,2030
+Women's Street Footwear_85.0,85,3575,26250
+Women's Street Footwear_86.0,8.6,746,5340
+Women's Street Footwear_9.0,0.9,562,4110
+Women's Street Footwear_90.0,9,2046,14960
+Women's Street Footwear_95.0,95,1722,14000

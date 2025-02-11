@@ -1,0 +1,361 @@
+Query,Dataset_address,Label
+"A small bakery in South Korea, and each day need to stock up on various types of bread. For each type of bread, we have an expected profit, which can be found in ""products.csv."" However, the shop has limited storage capacity, with details provided in ""capacity.csv."" Therefore, we must decide which types of bread to order each day to maximize our total expected profit while staying within our storage limits. The decision variables x_i represents the number of units of bread type i to be ordered each day. ","RA_example/BakerySales/Capacity.csv
+RA_example/BakerySales/Products.csv","Maximize
+   888 x_0_0 + 134 x_1_0 + 129 x_2_0 + 370 x_3_0 + 921 x_4_0 + 765 x_5_0 
+   + 154 x_6_0 + 837 x_7_0 + 584 x_8_0 + 365 x_9_0 
+Subject To
+ capacity_constraint: 4 x_0_0 + 2 x_1_0 + 4 x_2_0 + 3 x_3_0 + 2 x_4_0 
+   + x_5_0 + 2 x_6_0 + x_7_0 + 3 x_8_0 + 3 x_9_0 <= 180
+Generals
+ x_0_0  x_1_0  x_2_0  x_3_0  x_4_0  x_5_0  x_6_0  x_7_0  x_8_0  x_9_0  "
+"There is a small bakery in Korea that needs to stock various types of bread every day. For each type of bread, we have an expected profit, which can be found in __roducts.csv_. However, the shop has a limited storage capacity, as detailed in __apacity.csv_. Also, if the first bread is ordered, then the third bread must be ordered. Therefore, we must decide which type of bread to order each day in order to maximise the expected total profit without exceeding the storage limit. The decision variable x_i denotes the quantity of the ith type of bread to be ordered each day.
+","RA_example/BakerySales/Capacity.csv
+RA_example/BakerySales/Products.csv",
+"An automobile sales company is planning its inventory replenishment strategy. For each type of vehicle (e.g., sedans, SUVs, trucks, etc.), the company has a ""products.csv"" file that records the benefit coefficients for each vehicle type. Each vehicle type has a daily inventory limit, and the company also has an overall inventory capacity constraint, both of which are detailed in the ""capacity.csv"" file. The company's objective is to decide which vehicle types to order each day and in what quantities to maximize the overall benefit while adhering to both the individual vehicle limits and the total inventory capacity. The decision variables x_i represent the number of units of vehicle type i to be ordered daily. The company needs to balance between maximizing benefits and complying with inventory constraints to develop the optimal ordering plan.","RA_example/CarSales/Capacity.csv
+RA_example/CarSales/Products.csv","Maximize
+   1752 x_0_0 + 1856 x_1_0 + 8372 x_2_0 + 6168 x_3_0 + 9681 x_4_0 
+   + 8062 x_5_0 + 3895 x_6_0 + 3254 x_7_0 + 1701 x_8_0 + 6799 x_9_0 
+   + 2724 x_10_0 + 6304 x_11_0 + 3255 x_12_0 + 1923 x_13_0 + 4103 x_14_0 
+   + 4429 x_15_0 + 2663 x_16_0 + 1691 x_17_0 + 5632 x_18_0 + 4793 x_19_0 
+   + 1343 x_20_0 + 9124 x_21_0 + 3652 x_22_0 + 8842 x_23_0 + 9176 x_24_0 
+Subject To
+ capacity_constraint: 15 x_0_0 + 87 x_1_0 + 36 x_2_0 + 30 x_3_0 + 33 x_4_0 
+   + 72 x_5_0 + 75 x_6_0 + 71 x_7_0 + 51 x_8_0 + 21 x_9_0 + 97 x_10_0 
+   + 52 x_11_0 + 25 x_12_0 + 15 x_13_0 + 54 x_14_0 + 57 x_15_0 + 18 x_16_0 
+   + 69 x_17_0 + 26 x_18_0 + 38 x_19_0 + 31 x_20_0 + 74 x_21_0 + 82 x_22_0 
+   + 49 x_23_0 + 64 x_24_0 <= 1576
+Generals
+ x_0_0  x_1_0  x_2_0  x_3_0  x_4_0  x_5_0  x_6_0  x_7_0  x_8_0  x_9_0  
+ x_10_0  x_11_0  x_12_0  x_13_0  x_14_0  x_15_0  x_16_0  x_17_0  x_18_0  
+ x_19_0  x_20_0  x_21_0  x_22_0  x_23_0  x_24_0 "
+"A car sales company is planning an inventory replenishment strategy. For each model (e.g., cars, SUVs, trucks, etc.), the company has a __roducts.csv_ file that documents the benefit factors for each model. Each model has a daily inventory limit and the company also has an overall inventory capacity limit, both of which are detailed in the __sv capacity_ file. The company's objective is to decide which types of vehicles to order each day and in what quantities, in order to maximise the overall benefit while adhering to the individual vehicle limits and the overall stock capacity. The 1st of these has a minimum order quantity constraint, which must be more than 10 vehicles to be ordered. The decision variable x_i represents the number of vehicles of type i to be ordered per day. The company needs to strike a balance between maximising benefits and adhering to stock limits in order to develop an optimal ordering plan.","RA_example/CarSales/Capacity.csv
+RA_example/CarSales/Products.csv",
+"In the context of New Car Sales in Norway, a car dealership is planning its inventory replenishment strategy. For each type of vehicle (e.g., sedans, SUVs, electric vehicles, etc.), the dealership has a __roducts.csv_ file that records the benefit coefficients for each vehicle type. Each vehicle type has a daily inventory limit, and the dealership also has an overall inventory capacity constraint, both of which are detailed in the __apacity.csv_ file. The dealership__ objective is to decide which vehicle types to order each day and in what quantities to maximize the overall benefit while adhering to both the individual vehicle limits and the total inventory capacity. The decision variables x_i represent the number of units of vehicle type i to be ordered daily. The dealership needs to balance between maximizing benefits and complying with inventory constraints to develop the optimal ordering plan.","RA_example/NewCarSalesInNorway/Capacity.csv
+RA_example/NewCarSalesInNorway/Products.csv","Maximize
+   1200 x_0_0 + 1200 x_0_1 + 1200 x_0_2 + 1200 x_0_3 + 1200 x_0_4 
+   + 1200 x_0_5 + 1200 x_0_6 + 1200 x_0_7 + 1200 x_0_8 + 1200 x_0_9 
+   + 1800 x_1_0 + 1800 x_1_1 + 1800 x_1_2 + 1800 x_1_3 + 1800 x_1_4 
+   + 1800 x_1_5 + 1800 x_1_6 + 1800 x_1_7 + 1800 x_1_8 + 1800 x_1_9 
+   + 2500 x_2_0 + 2500 x_2_1 + 2500 x_2_2 + 2500 x_2_3 + 2500 x_2_4 
+   + 2500 x_2_5 + 2500 x_2_6 + 2500 x_2_7 + 2500 x_2_8 + 2500 x_2_9 
+   + 2000 x_3_0 + 2000 x_3_1 + 2000 x_3_2 + 2000 x_3_3 + 2000 x_3_4 
+   + 2000 x_3_5 + 2000 x_3_6 + 2000 x_3_7 + 2000 x_3_8 + 2000 x_3_9 
+   + 1500 x_4_0 + 1500 x_4_1 + 1500 x_4_2 + 1500 x_4_3 + 1500 x_4_4 
+   + 1500 x_4_5 + 1500 x_4_6 + 1500 x_4_7 + 1500 x_4_8 + 1500 x_4_9 
+   + 3000 x_5_0 + 3000 x_5_1 + 3000 x_5_2 + 3000 x_5_3 + 3000 x_5_4 
+   + 3000 x_5_5 + 3000 x_5_6 + 3000 x_5_7 + 3000 x_5_8 + 3000 x_5_9 
+   + 1000 x_6_0 + 1000 x_6_1 + 1000 x_6_2 + 1000 x_6_3 + 1000 x_6_4 
+   + 1000 x_6_5 + 1000 x_6_6 + 1000 x_6_7 + 1000 x_6_8 + 1000 x_6_9 
+   + 3500 x_7_0 + 3500 x_7_1 + 3500 x_7_2 + 3500 x_7_3 + 3500 x_7_4 
+   + 3500 x_7_5 + 3500 x_7_6 + 3500 x_7_7 + 3500 x_7_8 + 3500 x_7_9 
+   + 1600 x_8_0 + 1600 x_8_1 + 1600 x_8_2 + 1600 x_8_3 + 1600 x_8_4 
+   + 1600 x_8_5 + 1600 x_8_6 + 1600 x_8_7 + 1600 x_8_8 + 1600 x_8_9 
+   + 1700 x_9_0 + 1700 x_9_1 + 1700 x_9_2 + 1700 x_9_3 + 1700 x_9_4 
+   + 1700 x_9_5 + 1700 x_9_6 + 1700 x_9_7 + 1700 x_9_8 + 1700 x_9_9 
+Subject To
+ capacity_constraint: 20 x_0_0 + 15 x_1_0 + 25 x_2_0 + 18 x_3_0 + 10 x_4_0 
+   + 5 x_5_0 + 22 x_6_0 + 8 x_7_0 + 12 x_8_0 + 7 x_9_0 <= 100
+ 20 x_0_1 + 15 x_1_1 + 25 x_2_1 + 18 x_3_1 + 10 x_4_1 + 5 x_5_1 + 22 x_6_1 
+   + 8 x_7_1 + 12 x_8_1 + 7 x_9_1 <= 80
+ 20 x_0_2 + 15 x_1_2 + 25 x_2_2 + 18 x_3_2 + 10 x_4_2 + 5 x_5_2 + 22 x_6_2 
+   + 8 x_7_2 + 12 x_8_2 + 7 x_9_2 <= 120
+ 20 x_0_3 + 15 x_1_3 + 25 x_2_3 + 18 x_3_3 + 10 x_4_3 + 5 x_5_3 + 22 x_6_3 
+   + 8 x_7_3 + 12 x_8_3 + 7 x_9_3 <= 90
+ 20 x_0_4 + 15 x_1_4 + 25 x_2_4 + 18 x_3_4 + 10 x_4_4 + 5 x_5_4 + 22 x_6_4 
+   + 8 x_7_4 + 12 x_8_4 + 7 x_9_4 <= 50
+ 20 x_0_5 + 15 x_1_5 + 25 x_2_5 + 18 x_3_5 + 10 x_4_5 + 5 x_5_5 + 22 x_6_5 
+   + 8 x_7_5 + 12 x_8_5 + 7 x_9_5 <= 30
+ 20 x_0_6 + 15 x_1_6 + 25 x_2_6 + 18 x_3_6 + 10 x_4_6 + 5 x_5_6 + 22 x_6_6 
+   + 8 x_7_6 + 12 x_8_6 + 7 x_9_6 <= 110
+ 20 x_0_7 + 15 x_1_7 + 25 x_2_7 + 18 x_3_7 + 10 x_4_7 + 5 x_5_7 + 22 x_6_7 
+   + 8 x_7_7 + 12 x_8_7 + 7 x_9_7 <= 40
+ 20 x_0_8 + 15 x_1_8 + 25 x_2_8 + 18 x_3_8 + 10 x_4_8 + 5 x_5_8 + 22 x_6_8 
+   + 8 x_7_8 + 12 x_8_8 + 7 x_9_8 <= 60
+ 20 x_0_9 + 15 x_1_9 + 25 x_2_9 + 18 x_3_9 + 10 x_4_9 + 5 x_5_9 + 22 x_6_9 
+   + 8 x_7_9 + 12 x_8_9 + 7 x_9_9 <= 35
+Generals
+ x_0_0  x_0_1  x_0_2  x_0_3  x_0_4  x_0_5  x_0_6  x_0_7  x_0_8  x_0_9  
+ x_1_0  x_1_1  x_1_2  x_1_3  x_1_4  x_1_5  x_1_6  x_1_7  x_1_8  x_1_9  
+ x_2_0  x_2_1  x_2_2  x_2_3  x_2_4  x_2_5  x_2_6  x_2_7  x_2_8  x_2_9  
+ x_3_0  x_3_1  x_3_2  x_3_3  x_3_4  x_3_5  x_3_6  x_3_7  x_3_8  x_3_9  
+ x_4_0  x_4_1  x_4_2  x_4_3  x_4_4  x_4_5  x_4_6  x_4_7  x_4_8  x_4_9  
+ x_5_0  x_5_1  x_5_2  x_5_3  x_5_4  x_5_5  x_5_6  x_5_7  x_5_8  x_5_9  
+ x_6_0  x_6_1  x_6_2  x_6_3  x_6_4  x_6_5  x_6_6  x_6_7  x_6_8  x_6_9  
+ x_7_0  x_7_1  x_7_2  x_7_3  x_7_4  x_7_5  x_7_6  x_7_7  x_7_8  x_7_9  
+ x_8_0  x_8_1  x_8_2  x_8_3  x_8_4  x_8_5  x_8_6  x_8_7  x_8_8  x_8_9  
+ x_9_0  x_9_1  x_9_2  x_9_3  x_9_4  x_9_5  x_9_6  x_9_7  x_9_8  x_9_9 "
+"In the sale of new cars in Norway, a car dealership is planning its inventory replenishment strategy. For each model (e.g., car, crossover, electric vehicle, etc.), the dealership has a __roducts.csv_ file in which the benefit factors for each model are recorded. Each model has a daily inventory limit and the dealer also has an overall inventory capacity limit, both of which are detailed in the __sv capacity_ file. If the first type of vehicle is to be ordered, then the second type of vehicle also needs to be ordered at the same time. The goal of the dealer is to decide which types of vehicles to order per day and in what quantities, in order to maximise the overall benefit of adhering to the individual vehicle limits and the overall stock capacity. The decision variable x_i represents the number of vehicles of type i to be ordered each day. Dealers need to strike a balance between maximising benefits and adhering to stock limits in order to develop an optimal ordering plan.","RA_example/NewCarSalesInNorway/Capacity.csv
+RA_example/NewCarSalesInNorway/Products.csv",
+"A real estate developer is planning property development in New York. There are several areas to choose from, such as Queens, Brooklyn, etc. However, due to limited resources and focus, the developer cannot develop all areas and must select a few to develop. The development benefit data for each area is recorded in the __roducts.csv_ file. Each area has a daily resource limit for development, and the developer also has an overall development capacity constraint, both of which are detailed in the __apacity.csv_ file. The objective is to decide which areas to develop each day and to what extent, in order to maximize the overall benefit while adhering to both the individual area limits and the total development capacity. The decision variables  x_i  represent the scale of development in area  i  each day. ","RA_example/NYCPropertySales/Capacity.csv
+RA_example/NYCPropertySales/Products.csv","Maximize
+   443 x_0_0 + 522 x_1_0 + 300 x_2_0 + 767 x_3_0 + 300 x_4_0 + 309 x_5_0 
+   + 598 x_6_0 + 460 x_7_0 + 318 x_8_0 + 126 x_9_0 + 593 x_10_0 
+   + 871 x_11_0 + 858 x_12_0 + 321 x_13_0 + 275 x_14_0 + 700 x_15_0 
+   + 685 x_16_0 + 940 x_17_0 + 522 x_18_0 + 763 x_19_0 
+Subject To
+ capacity_constraint: 104 x_0_0 + 368 x_1_0 + 483 x_2_0 + 165 x_3_0 
+   + 105 x_4_0 + 123 x_5_0 + 131 x_6_0 + 341 x_7_0 + 258 x_8_0 + 469 x_9_0 
+   + 387 x_10_0 + 425 x_11_0 + 482 x_12_0 + 495 x_13_0 + 305 x_14_0 
+   + 377 x_15_0 + 318 x_16_0 + 56 x_17_0 + 213 x_18_0 + 472 x_19_0 <= 4466
+Generals
+ x_0_0  x_1_0  x_2_0  x_3_0  x_4_0  x_5_0  x_6_0  x_7_0  x_8_0  x_9_0  
+ x_10_0  x_11_0  x_12_0  x_13_0  x_14_0  x_15_0  x_16_0  x_17_0  x_18_0  
+ x_19_0  "
+"A property developer is planning to develop real estate in New York. There are several areas to choose from, such as Queens and Brooklyn. However, due to limited resources and focus, the developer is not able to develop all the areas and has to select a few areas for development. The development benefit data for each area is recorded in the __roducts.csv_ file. Each area has a daily development resource limit and the developer also has an overall development capacity limit, both of which are detailed in the __apacity.csv_ file. The first area and the second area must be developed. The goal is to decide which areas are to be developed each day and to what extent, in order to maximise the overall benefits while adhering to the individual area limits and the overall development capacity. The decision variable x_i represents the scale of development per day in area i.","RA_example/NYCPropertySales/Capacity.csv
+RA_example/NYCPropertySales/Products.csv",
+"A chain pharmacy needs to restock its drug inventory. For each type of drug (such as Non-Steroidal Anti-Inflammatory Drugs (NSAIDs), antirheumatic drugs, acetic acid derivatives, and related substances), there is an associated benefit table provided in the ""products.csv"" file. Each drug has a daily inventory limit, and the pharmacy chain also has an overall inventory capacity constraint, both of which are detailed in the ""capacity.csv"" file. The objective is to decide which drugs to order each day and in what quantities to maximize the overall benefit while adhering to both the individual drug limits and the total inventory capacity. The decision variables x_i  represent the number of units of type  i  drug to be ordered daily. ","RA_example/PharmaSalesData/Capacity.csv
+RA_example/PharmaSalesData/Products.csv","Maximize
+   585 x_0_0 + 557 x_1_0 + 963 x_2_0 + 301 x_3_0 + 425 x_4_0 + 260 x_5_0 
+   + 848 x_6_0 + 461 x_7_0 + 840 x_8_0 + 999 x_9_0 + 392 x_10_0 
+   + 874 x_11_0 + 695 x_12_0 + 405 x_13_0 + 320 x_14_0 + 913 x_15_0 
+   + 754 x_16_0 + 428 x_17_0 + 711 x_18_0 + 998 x_19_0 
+Subject To
+ capacity_constraint: 50 x_0_0 + 329 x_1_0 + 410 x_2_0 + 452 x_3_0 
+   + 350 x_4_0 + 159 x_5_0 + 353 x_6_0 + 291 x_7_0 + 302 x_8_0 + 50 x_9_0 
+   + 250 x_10_0 + 178 x_11_0 + 313 x_12_0 + 378 x_13_0 + 94 x_14_0 
+   + 97 x_15_0 + 470 x_16_0 + 341 x_17_0 + 121 x_18_0 + 61 x_19_0 <= 4120
+Generals
+ x_0_0  x_1_0  x_2_0  x_3_0  x_4_0  x_5_0  x_6_0  x_7_0  x_8_0  x_9_0  
+ x_10_0  x_11_0  x_12_0  x_13_0  x_14_0  x_15_0  x_16_0  x_17_0  x_18_0  
+ x_19_0  "
+"A pharmacy chain needs to replenish its drug inventory. The __roducts.csv_ file provides a table of benefits associated with each drug product (e.g., nonsteroidal anti-inflammatory drugs (NSAIDs), antirheumatic drugs, acetic acid derivatives, and related substances). There are daily stock limits for each drug and overall stock capacity limits for pharmacy chains, both of which are detailed in the __apacity.csv_ file. The total stock of the first drug and the second drug cannot exceed 50. Our objective is to decide which drugs to order each day and in what quantities to maximise the overall benefit while adhering to the individual drug limits and the overall stock capacity. The decision variable x_i represents the number of units of the ith drug to be ordered each day.","RA_example/PharmaSalesData/Capacity.csv
+RA_example/PharmaSalesData/Products.csv",
+"A supermarket manager needs to select a variety of products to stock in different sections of the store. Particularly, the store has several sections, each with a display space limit provided in ""capacity.csv."" The predefined price and shelf space requirement of each product are detailed in ""products.csv."" The objective is to determine the optimal number of units of each product to stock in each section to maximize the total revenue, while ensuring that the total space used by the products in each section does not exceed the available capacity. The decision variables x_ij denote the number of units of product j to be placed in section i. ","RA_example/SalesOfASupermarket/Capacity.csv
+RA_example/SalesOfASupermarket/Products.csv","Maximize
+   10 x_0_0 + 10 x_0_1 + 10 x_0_2 + 10 x_0_3 + 10 x_0_4 + 10 x_0_5 
+   + 10 x_0_6 + 10 x_0_7 + 15 x_1_0 + 15 x_1_1 + 15 x_1_2 + 15 x_1_3 
+   + 15 x_1_4 + 15 x_1_5 + 15 x_1_6 + 15 x_1_7 + 8 x_2_0 + 8 x_2_1 
+   + 8 x_2_2 + 8 x_2_3 + 8 x_2_4 + 8 x_2_5 + 8 x_2_6 + 8 x_2_7 + 12 x_3_0 
+   + 12 x_3_1 + 12 x_3_2 + 12 x_3_3 + 12 x_3_4 + 12 x_3_5 + 12 x_3_6 
+   + 12 x_3_7 + 20 x_4_0 + 20 x_4_1 + 20 x_4_2 + 20 x_4_3 + 20 x_4_4 
+   + 20 x_4_5 + 20 x_4_6 + 20 x_4_7 + 25 x_5_0 + 25 x_5_1 + 25 x_5_2 
+   + 25 x_5_3 + 25 x_5_4 + 25 x_5_5 + 25 x_5_6 + 25 x_5_7 + 5 x_6_0 
+   + 5 x_6_1 + 5 x_6_2 + 5 x_6_3 + 5 x_6_4 + 5 x_6_5 + 5 x_6_6 + 5 x_6_7 
+   + 30 x_7_0 + 30 x_7_1 + 30 x_7_2 + 30 x_7_3 + 30 x_7_4 + 30 x_7_5 
+   + 30 x_7_6 + 30 x_7_7 + 18 x_8_0 + 18 x_8_1 + 18 x_8_2 + 18 x_8_3 
+   + 18 x_8_4 + 18 x_8_5 + 18 x_8_6 + 18 x_8_7 + 22 x_9_0 + 22 x_9_1 
+   + 22 x_9_2 + 22 x_9_3 + 22 x_9_4 + 22 x_9_5 + 22 x_9_6 + 22 x_9_7 
+Subject To
+ capacity_constraint: 2 x_0_0 + 3 x_1_0 + x_2_0 + 2 x_3_0 + 4 x_4_0 
+   + 5 x_5_0 + x_6_0 + 6 x_7_0 + 3 x_8_0 + 4 x_9_0 <= 100
+ 2 x_0_1 + 3 x_1_1 + x_2_1 + 2 x_3_1 + 4 x_4_1 + 5 x_5_1 + x_6_1 + 6 x_7_1 
+   + 3 x_8_1 + 4 x_9_1 <= 150
+ 2 x_0_2 + 3 x_1_2 + x_2_2 + 2 x_3_2 + 4 x_4_2 + 5 x_5_2 + x_6_2 + 6 x_7_2 
+   + 3 x_8_2 + 4 x_9_2 <= 120
+ 2 x_0_3 + 3 x_1_3 + x_2_3 + 2 x_3_3 + 4 x_4_3 + 5 x_5_3 + x_6_3 + 6 x_7_3 
+   + 3 x_8_3 + 4 x_9_3 <= 130
+ 2 x_0_4 + 3 x_1_4 + x_2_4 + 2 x_3_4 + 4 x_4_4 + 5 x_5_4 + x_6_4 + 6 x_7_4 
+   + 3 x_8_4 + 4 x_9_4 <= 90
+ 2 x_0_5 + 3 x_1_5 + x_2_5 + 2 x_3_5 + 4 x_4_5 + 5 x_5_5 + x_6_5 + 6 x_7_5 
+   + 3 x_8_5 + 4 x_9_5 <= 110
+ 2 x_0_6 + 3 x_1_6 + x_2_6 + 2 x_3_6 + 4 x_4_6 + 5 x_5_6 + x_6_6 + 6 x_7_6 
+   + 3 x_8_6 + 4 x_9_6 <= 160
+ 2 x_0_7 + 3 x_1_7 + x_2_7 + 2 x_3_7 + 4 x_4_7 + 5 x_5_7 + x_6_7 + 6 x_7_7 
+   + 3 x_8_7 + 4 x_9_7 <= 140
+Generals
+ x_0_0  x_0_1  x_0_2  x_0_3  x_0_4  x_0_5  x_0_6  x_0_7  x_1_0  x_1_1  
+ x_1_2  x_1_3  x_1_4  x_1_5  x_1_6  x_1_7  x_2_0  x_2_1  x_2_2  x_2_3  
+ x_2_4  x_2_5  x_2_6  x_2_7  x_3_0  x_3_1  x_3_2  x_3_3  x_3_4  x_3_5  
+ x_3_6  x_3_7  x_4_0  x_4_1  x_4_2  x_4_3  x_4_4  x_4_5  x_4_6  x_4_7  
+ x_5_0  x_5_1  x_5_2  x_5_3  x_5_4  x_5_5  x_5_6  x_5_7  x_6_0  x_6_1  
+ x_6_2  x_6_3  x_6_4  x_6_5  x_6_6  x_6_7  x_7_0  x_7_1  x_7_2  x_7_3  
+ x_7_4  x_7_5  x_7_6  x_7_7  x_8_0  x_8_1  x_8_2  x_8_3  x_8_4  x_8_5  
+ x_8_6  x_8_7  x_9_0  x_9_1  x_9_2  x_9_3  x_9_4  x_9_5  x_9_6  x_9_7  "
+"A supermarket manager needs to select a variety of products to display in different areas of the shop. In particular, the shop has several zones, and the display space limitations for each zone are provided in __apacity.csv_. The intended price and shelf space requirements for each product are detailed in __roducts.csv_. The first of these products must have a quantity of more than 10.Our objective is to determine the optimum quantity of each product to be stocked in each partition in order to maximise total revenue while ensuring that the total space used by each product in each partition does not exceed the available capacity. The decision variable x_ij represents the number of products j to be placed in partition i. The decision variable x_ij represents the number of products j to be placed in partition i.
+","RA_example/SalesOfASupermarket/Capacity.csv
+RA_example/SalesOfASupermarket/Products.csv",
+"A supermarket needs to restock its inventory, and for each type of produce (such as leafy vegetables, mushrooms, etc.), there is an associated benefit table provided in ""products.csv."" Each product has a daily inventory limit, and the supermarket also has an overall inventory capacity constraint, both of which are detailed in ""capacity.csv."" The objective is to decide which products to order each day and in what quantities to maximize the overall benefit while adhering to both the individual product limits and the total inventory capacity. The decision variables x_i represents the number of units of type i of produce to be ordered daily.","RA_example/SupermarketSalesData/Capacity.csv
+RA_example/SupermarketSalesData/Products.csv","Maximize
+   49 x_0_0 + 30 x_1_0 + 30 x_2_0 + 18 x_3_0 + 54 x_4_0 + 27 x_5_0 
+   + 91 x_6_0 + 88 x_7_0 + 78 x_8_0 + 22 x_9_0 
+Subject To
+ capacity_constraint: 282 x_0_0 + 83 x_1_0 + 251 x_2_0 + 257 x_3_0 
+   + 88 x_4_0 + 52 x_5_0 + 198 x_6_0 + 203 x_7_0 + 87 x_8_0 + 265 x_9_0 
+   <= 1035
+Generals
+ x_0_0  x_1_0  x_2_0  x_3_0  x_4_0  x_5_0  x_6_0  x_7_0  x_8_0  x_9_0  "
+"A supermarket needs to replenish its stock, and the __products.csv_ provides the relevant income statement for each type of produce (e.g. leafy greens, mushrooms, etc.). Each product has a daily stock limit and the supermarket also has an overall stock capacity constraint, both of which are detailed in __capacity.csv_. In this case, the sum of the quantities of the first second as well as the third product cannot exceed 20.The objective is to decide which products to order each day and the quantities to be ordered in order to maximise the overall benefits while adhering to the individual product limits and the overall stock capacity. The decision variable x_i represents the number of units of the ith product to be ordered each day.","RA_example/SupermarketSalesData/Capacity.csv
+RA_example/SupermarketSalesData/Products.csv",
+"A digital game store needs to decide which games to list on different platforms, considering that these games belong to various genres such as racing, sports, and others. Each platform has a limited memory capacity, with specific details provided in ""capacity.csv."" The predefined value and memory requirement of each game are available in ""products.csv."" The objective is to determine which genres and how many units of each game to list on each platform to maximize the total value of the games across all platforms, while ensuring that the total memory usage on each platform does not exceed its capacity. The decision variables  x_ij represent the number of units of games from genres j to be listed on platform i.","RA_example/VideoGameSales/Capacity.csv
+RA_example/VideoGameSales/Products.csv","Maximize
+   28 x_0_0 + 28 x_0_1 + 28 x_0_2 + 28 x_0_3 + 28 x_0_4 + 28 x_0_5 
+   + 28 x_0_6 + 28 x_0_7 + 28 x_0_8 + 28 x_0_9 + 69 x_1_0 + 69 x_1_1 
+   + 69 x_1_2 + 69 x_1_3 + 69 x_1_4 + 69 x_1_5 + 69 x_1_6 + 69 x_1_7 
+   + 69 x_1_8 + 69 x_1_9 + 20 x_2_0 + 20 x_2_1 + 20 x_2_2 + 20 x_2_3 
+   + 20 x_2_4 + 20 x_2_5 + 20 x_2_6 + 20 x_2_7 + 20 x_2_8 + 20 x_2_9 
+   + 62 x_3_0 + 62 x_3_1 + 62 x_3_2 + 62 x_3_3 + 62 x_3_4 + 62 x_3_5 
+   + 62 x_3_6 + 62 x_3_7 + 62 x_3_8 + 62 x_3_9 + 58 x_4_0 + 58 x_4_1 
+   + 58 x_4_2 + 58 x_4_3 + 58 x_4_4 + 58 x_4_5 + 58 x_4_6 + 58 x_4_7 
+   + 58 x_4_8 + 58 x_4_9 + 11 x_5_0 + 11 x_5_1 + 11 x_5_2 + 11 x_5_3 
+   + 11 x_5_4 + 11 x_5_5 + 11 x_5_6 + 11 x_5_7 + 11 x_5_8 + 11 x_5_9 
+   + 73 x_6_0 + 73 x_6_1 + 73 x_6_2 + 73 x_6_3 + 73 x_6_4 + 73 x_6_5 
+   + 73 x_6_6 + 73 x_6_7 + 73 x_6_8 + 73 x_6_9 + 43 x_7_0 + 43 x_7_1 
+   + 43 x_7_2 + 43 x_7_3 + 43 x_7_4 + 43 x_7_5 + 43 x_7_6 + 43 x_7_7 
+   + 43 x_7_8 + 43 x_7_9 + 28 x_8_0 + 28 x_8_1 + 28 x_8_2 + 28 x_8_3 
+   + 28 x_8_4 + 28 x_8_5 + 28 x_8_6 + 28 x_8_7 + 28 x_8_8 + 28 x_8_9 
+   + 57 x_9_0 + 57 x_9_1 + 57 x_9_2 + 57 x_9_3 + 57 x_9_4 + 57 x_9_5 
+   + 57 x_9_6 + 57 x_9_7 + 57 x_9_8 + 57 x_9_9 + 92 x_10_0 + 92 x_10_1 
+   + 92 x_10_2 + 92 x_10_3 + 92 x_10_4 + 92 x_10_5 + 92 x_10_6 + 92 x_10_7 
+   + 92 x_10_8 + 92 x_10_9 + 66 x_11_0 + 66 x_11_1 + 66 x_11_2 + 66 x_11_3 
+   + 66 x_11_4 + 66 x_11_5 + 66 x_11_6 + 66 x_11_7 + 66 x_11_8 + 66 x_11_9 
+   + 14 x_12_0 + 14 x_12_1 + 14 x_12_2 + 14 x_12_3 + 14 x_12_4 + 14 x_12_5 
+   + 14 x_12_6 + 14 x_12_7 + 14 x_12_8 + 14 x_12_9 + 49 x_13_0 + 49 x_13_1 
+   + 49 x_13_2 + 49 x_13_3 + 49 x_13_4 + 49 x_13_5 + 49 x_13_6 + 49 x_13_7 
+   + 49 x_13_8 + 49 x_13_9 + 12 x_14_0 + 12 x_14_1 + 12 x_14_2 + 12 x_14_3 
+   + 12 x_14_4 + 12 x_14_5 + 12 x_14_6 + 12 x_14_7 + 12 x_14_8 + 12 x_14_9 
+Subject To
+ capacity_constraint: 393 x_0_0 + 195 x_1_0 + 192 x_2_0 + 155 x_3_0 
+   + 500 x_4_0 + 156 x_5_0 + 317 x_6_0 + 694 x_7_0 + 751 x_8_0 + 467 x_9_0 
+   + 796 x_10_0 + 146 x_11_0 + 269 x_12_0 + 246 x_13_0 + 652 x_14_0 <= 1336
+ 393 x_0_1 + 195 x_1_1 + 192 x_2_1 + 155 x_3_1 + 500 x_4_1 + 156 x_5_1 
+   + 317 x_6_1 + 694 x_7_1 + 751 x_8_1 + 467 x_9_1 + 796 x_10_1 
+   + 146 x_11_1 + 269 x_12_1 + 246 x_13_1 + 652 x_14_1 <= 1754
+ 393 x_0_2 + 195 x_1_2 + 192 x_2_2 + 155 x_3_2 + 500 x_4_2 + 156 x_5_2 
+   + 317 x_6_2 + 694 x_7_2 + 751 x_8_2 + 467 x_9_2 + 796 x_10_2 
+   + 146 x_11_2 + 269 x_12_2 + 246 x_13_2 + 652 x_14_2 <= 1617
+ 393 x_0_3 + 195 x_1_3 + 192 x_2_3 + 155 x_3_3 + 500 x_4_3 + 156 x_5_3 
+   + 317 x_6_3 + 694 x_7_3 + 751 x_8_3 + 467 x_9_3 + 796 x_10_3 
+   + 146 x_11_3 + 269 x_12_3 + 246 x_13_3 + 652 x_14_3 <= 1119
+ 393 x_0_4 + 195 x_1_4 + 192 x_2_4 + 155 x_3_4 + 500 x_4_4 + 156 x_5_4 
+   + 317 x_6_4 + 694 x_7_4 + 751 x_8_4 + 467 x_9_4 + 796 x_10_4 
+   + 146 x_11_4 + 269 x_12_4 + 246 x_13_4 + 652 x_14_4 <= 1410
+ 393 x_0_5 + 195 x_1_5 + 192 x_2_5 + 155 x_3_5 + 500 x_4_5 + 156 x_5_5 
+   + 317 x_6_5 + 694 x_7_5 + 751 x_8_5 + 467 x_9_5 + 796 x_10_5 
+   + 146 x_11_5 + 269 x_12_5 + 246 x_13_5 + 652 x_14_5 <= 627
+ 393 x_0_6 + 195 x_1_6 + 192 x_2_6 + 155 x_3_6 + 500 x_4_6 + 156 x_5_6 
+   + 317 x_6_6 + 694 x_7_6 + 751 x_8_6 + 467 x_9_6 + 796 x_10_6 
+   + 146 x_11_6 + 269 x_12_6 + 246 x_13_6 + 652 x_14_6 <= 748
+ 393 x_0_7 + 195 x_1_7 + 192 x_2_7 + 155 x_3_7 + 500 x_4_7 + 156 x_5_7 
+   + 317 x_6_7 + 694 x_7_7 + 751 x_8_7 + 467 x_9_7 + 796 x_10_7 
+   + 146 x_11_7 + 269 x_12_7 + 246 x_13_7 + 652 x_14_7 <= 1540
+ 393 x_0_8 + 195 x_1_8 + 192 x_2_8 + 155 x_3_8 + 500 x_4_8 + 156 x_5_8 
+   + 317 x_6_8 + 694 x_7_8 + 751 x_8_8 + 467 x_9_8 + 796 x_10_8 
+   + 146 x_11_8 + 269 x_12_8 + 246 x_13_8 + 652 x_14_8 <= 1292
+ 393 x_0_9 + 195 x_1_9 + 192 x_2_9 + 155 x_3_9 + 500 x_4_9 + 156 x_5_9 
+   + 317 x_6_9 + 694 x_7_9 + 751 x_8_9 + 467 x_9_9 + 796 x_10_9 
+   + 146 x_11_9 + 269 x_12_9 + 246 x_13_9 + 652 x_14_9 <= 1138
+Generals
+ x_0_0  x_0_1  x_0_2  x_0_3  x_0_4  x_0_5  x_0_6  x_0_7  x_0_8  x_0_9  
+ x_1_0  x_1_1  x_1_2  x_1_3  x_1_4  x_1_5  x_1_6  x_1_7  x_1_8  x_1_9  
+ x_2_0  x_2_1  x_2_2  x_2_3  x_2_4  x_2_5  x_2_6  x_2_7  x_2_8  x_2_9  
+ x_3_0  x_3_1  x_3_2  x_3_3  x_3_4  x_3_5  x_3_6  x_3_7  x_3_8  x_3_9  
+ x_4_0  x_4_1  x_4_2  x_4_3  x_4_4  x_4_5  x_4_6  x_4_7  x_4_8  x_4_9  
+ x_5_0  x_5_1  x_5_2  x_5_3  x_5_4  x_5_5  x_5_6  x_5_7  x_5_8  x_5_9  
+ x_6_0  x_6_1  x_6_2  x_6_3  x_6_4  x_6_5  x_6_6  x_6_7  x_6_8  x_6_9  
+ x_7_0  x_7_1  x_7_2  x_7_3  x_7_4  x_7_5  x_7_6  x_7_7  x_7_8  x_7_9  
+ x_8_0  x_8_1  x_8_2  x_8_3  x_8_4  x_8_5  x_8_6  x_8_7  x_8_8  x_8_9  
+ x_9_0  x_9_1  x_9_2  x_9_3  x_9_4  x_9_5  x_9_6  x_9_7  x_9_8  x_9_9  
+ x_10_0  x_10_1  x_10_2  x_10_3  x_10_4  x_10_5  x_10_6  x_10_7  x_10_8  
+ x_10_9  x_11_0  x_11_1  x_11_2  x_11_3  x_11_4  x_11_5  x_11_6  x_11_7  
+ x_11_8  x_11_9  x_12_0  x_12_1  x_12_2  x_12_3  x_12_4  x_12_5  x_12_6  
+ x_12_7  x_12_8  x_12_9  x_13_0  x_13_1  x_13_2  x_13_3  x_13_4  x_13_5  
+ x_13_6  x_13_7  x_13_8  x_13_9  x_14_0  x_14_1  x_14_2  x_14_3  x_14_4  
+ x_14_5  x_14_6  x_14_7  x_14_8  x_14_9 "
+"Considering that these games belong to different genres such as racing, sports, etc., digital game shops need to decide which games to list on different platforms. Each platform has a limited memory capacity, details of which can be found in __apacity.csv_. Predefined values and memory requirements for each game can be found in __roducts.csv_. In this case, the sum of the first and second game must be greater than 5. Our goal is to determine which types of games and the number of each game to list on each platform in order to maximise the total value of the game across all platforms, while ensuring that the total memory usage of each platform does not exceed its capacity. The decision variable x_ij denotes the number of games of type j to be listed on platform i. ","RA_example/VideoGameSales/Capacity.csv
+RA_example/VideoGameSales/Products.csv",
+"Amazon needs to allocate different types of air conditioners into different warehouse storage areas. Specifically, Amazon has several storage areas, each with a capacity limit provided in __apacity.csv._ The predefined value and size of each air conditioner type can be found in __roducts.csv._ The objective is to determine the optimal number of units of each air conditioner type to place in each storage area to maximize the total value of the air conditioners across all areas, while ensuring that the total size of the units in each area does not exceed its capacity. The decision variables x_i_j represent the number of units of air conditioner type j to be placed in storage area i.","RA_example/AmazonProductsSalesDataset2023/Capacity.csv
+RA_example/AmazonProductsSalesDataset2023/Products.csv","Maximize
+   4811 x_0_0 + 4811 x_0_1 + 4811 x_0_2 + 4811 x_0_3 + 4811 x_0_4 
+   + 4811 x_0_5 + 4811 x_0_6 + 4811 x_0_7 + 4811 x_0_8 + 4811 x_0_9 
+   + 4811 x_0_10 + 4811 x_0_11 + 4811 x_0_12 + 4811 x_0_13 + 4811 x_0_14 
+   + 1130 x_1_0 + 1130 x_1_1 + 1130 x_1_2 + 1130 x_1_3 + 1130 x_1_4 
+   + 1130 x_1_5 + 1130 x_1_6 + 1130 x_1_7 + 1130 x_1_8 + 1130 x_1_9 
+   + 1130 x_1_10 + 1130 x_1_11 + 1130 x_1_12 + 1130 x_1_13 + 1130 x_1_14 
+   + 1611 x_2_0 + 1611 x_2_1 + 1611 x_2_2 + 1611 x_2_3 + 1611 x_2_4 
+   + 1611 x_2_5 + 1611 x_2_6 + 1611 x_2_7 + 1611 x_2_8 + 1611 x_2_9 
+   + 1611 x_2_10 + 1611 x_2_11 + 1611 x_2_12 + 1611 x_2_13 + 1611 x_2_14 
+   + 3368 x_3_0 + 3368 x_3_1 + 3368 x_3_2 + 3368 x_3_3 + 3368 x_3_4 
+   + 3368 x_3_5 + 3368 x_3_6 + 3368 x_3_7 + 3368 x_3_8 + 3368 x_3_9 
+   + 3368 x_3_10 + 3368 x_3_11 + 3368 x_3_12 + 3368 x_3_13 + 3368 x_3_14 
+   + 2135 x_4_0 + 2135 x_4_1 + 2135 x_4_2 + 2135 x_4_3 + 2135 x_4_4 
+   + 2135 x_4_5 + 2135 x_4_6 + 2135 x_4_7 + 2135 x_4_8 + 2135 x_4_9 
+   + 2135 x_4_10 + 2135 x_4_11 + 2135 x_4_12 + 2135 x_4_13 + 2135 x_4_14 
+   + 1046 x_5_0 + 1046 x_5_1 + 1046 x_5_2 + 1046 x_5_3 + 1046 x_5_4 
+   + 1046 x_5_5 + 1046 x_5_6 + 1046 x_5_7 + 1046 x_5_8 + 1046 x_5_9 
+   + 1046 x_5_10 + 1046 x_5_11 + 1046 x_5_12 + 1046 x_5_13 + 1046 x_5_14 
+   + 4030 x_6_0 + 4030 x_6_1 + 4030 x_6_2 + 4030 x_6_3 + 4030 x_6_4 
+   + 4030 x_6_5 + 4030 x_6_6 + 4030 x_6_7 + 4030 x_6_8 + 4030 x_6_9 
+   + 4030 x_6_10 + 4030 x_6_11 + 4030 x_6_12 + 4030 x_6_13 + 4030 x_6_14 
+   + 3761 x_7_0 + 3761 x_7_1 + 3761 x_7_2 + 3761 x_7_3 + 3761 x_7_4 
+   + 3761 x_7_5 + 3761 x_7_6 + 3761 x_7_7 + 3761 x_7_8 + 3761 x_7_9 
+   + 3761 x_7_10 + 3761 x_7_11 + 3761 x_7_12 + 3761 x_7_13 + 3761 x_7_14 
+   + 3523 x_8_0 + 3523 x_8_1 + 3523 x_8_2 + 3523 x_8_3 + 3523 x_8_4 
+   + 3523 x_8_5 + 3523 x_8_6 + 3523 x_8_7 + 3523 x_8_8 + 3523 x_8_9 
+   + 3523 x_8_10 + 3523 x_8_11 + 3523 x_8_12 + 3523 x_8_13 + 3523 x_8_14 
+   + 1701 x_9_0 + 1701 x_9_1 + 1701 x_9_2 + 1701 x_9_3 + 1701 x_9_4 
+   + 1701 x_9_5 + 1701 x_9_6 + 1701 x_9_7 + 1701 x_9_8 + 1701 x_9_9 
+   + 1701 x_9_10 + 1701 x_9_11 + 1701 x_9_12 + 1701 x_9_13 + 1701 x_9_14 
+Subject To
+ capacity_constraint: 114 x_0_0 + 200 x_1_0 + 106 x_2_0 + 256 x_3_0 
+   + 268 x_4_0 + 185 x_5_0 + 299 x_6_0 + 131 x_7_0 + 139 x_8_0 + 105 x_9_0 
+   <= 1083
+ 114 x_0_1 + 200 x_1_1 + 106 x_2_1 + 256 x_3_1 + 268 x_4_1 + 185 x_5_1 
+   + 299 x_6_1 + 131 x_7_1 + 139 x_8_1 + 105 x_9_1 <= 1840
+ 114 x_0_2 + 200 x_1_2 + 106 x_2_2 + 256 x_3_2 + 268 x_4_2 + 185 x_5_2 
+   + 299 x_6_2 + 131 x_7_2 + 139 x_8_2 + 105 x_9_2 <= 770
+ 114 x_0_3 + 200 x_1_3 + 106 x_2_3 + 256 x_3_3 + 268 x_4_3 + 185 x_5_3 
+   + 299 x_6_3 + 131 x_7_3 + 139 x_8_3 + 105 x_9_3 <= 1299
+ 114 x_0_4 + 200 x_1_4 + 106 x_2_4 + 256 x_3_4 + 268 x_4_4 + 185 x_5_4 
+   + 299 x_6_4 + 131 x_7_4 + 139 x_8_4 + 105 x_9_4 <= 1259
+ 114 x_0_5 + 200 x_1_5 + 106 x_2_5 + 256 x_3_5 + 268 x_4_5 + 185 x_5_5 
+   + 299 x_6_5 + 131 x_7_5 + 139 x_8_5 + 105 x_9_5 <= 543
+ 114 x_0_6 + 200 x_1_6 + 106 x_2_6 + 256 x_3_6 + 268 x_4_6 + 185 x_5_6 
+   + 299 x_6_6 + 131 x_7_6 + 139 x_8_6 + 105 x_9_6 <= 1831
+ 114 x_0_7 + 200 x_1_7 + 106 x_2_7 + 256 x_3_7 + 268 x_4_7 + 185 x_5_7 
+   + 299 x_6_7 + 131 x_7_7 + 139 x_8_7 + 105 x_9_7 <= 855
+ 114 x_0_8 + 200 x_1_8 + 106 x_2_8 + 256 x_3_8 + 268 x_4_8 + 185 x_5_8 
+   + 299 x_6_8 + 131 x_7_8 + 139 x_8_8 + 105 x_9_8 <= 619
+ 114 x_0_9 + 200 x_1_9 + 106 x_2_9 + 256 x_3_9 + 268 x_4_9 + 185 x_5_9 
+   + 299 x_6_9 + 131 x_7_9 + 139 x_8_9 + 105 x_9_9 <= 637
+ 114 x_0_10 + 200 x_1_10 + 106 x_2_10 + 256 x_3_10 + 268 x_4_10 
+   + 185 x_5_10 + 299 x_6_10 + 131 x_7_10 + 139 x_8_10 + 105 x_9_10 <= 935
+ 114 x_0_11 + 200 x_1_11 + 106 x_2_11 + 256 x_3_11 + 268 x_4_11 
+   + 185 x_5_11 + 299 x_6_11 + 131 x_7_11 + 139 x_8_11 + 105 x_9_11 <= 626
+ 114 x_0_12 + 200 x_1_12 + 106 x_2_12 + 256 x_3_12 + 268 x_4_12 
+   + 185 x_5_12 + 299 x_6_12 + 131 x_7_12 + 139 x_8_12 + 105 x_9_12 <= 1457
+ 114 x_0_13 + 200 x_1_13 + 106 x_2_13 + 256 x_3_13 + 268 x_4_13 
+   + 185 x_5_13 + 299 x_6_13 + 131 x_7_13 + 139 x_8_13 + 105 x_9_13 <= 1198
+ 114 x_0_14 + 200 x_1_14 + 106 x_2_14 + 256 x_3_14 + 268 x_4_14 
+   + 185 x_5_14 + 299 x_6_14 + 131 x_7_14 + 139 x_8_14 + 105 x_9_14 <= 837
+Generals
+ x_0_0  x_0_1  x_0_2  x_0_3  x_0_4  x_0_5  x_0_6  x_0_7  x_0_8  x_0_9  
+ x_0_10  x_0_11  x_0_12  x_0_13  x_0_14  x_1_0  x_1_1  x_1_2  x_1_3  x_1_4  
+ x_1_5  x_1_6  x_1_7  x_1_8  x_1_9  x_1_10  x_1_11  x_1_12  x_1_13  x_1_14  
+ x_2_0  x_2_1  x_2_2  x_2_3  x_2_4  x_2_5  x_2_6  x_2_7  x_2_8  x_2_9  
+ x_2_10  x_2_11  x_2_12  x_2_13  x_2_14  x_3_0  x_3_1  x_3_2  x_3_3  x_3_4  
+ x_3_5  x_3_6  x_3_7  x_3_8  x_3_9  x_3_10  x_3_11  x_3_12  x_3_13  x_3_14  
+ x_4_0  x_4_1  x_4_2  x_4_3  x_4_4  x_4_5  x_4_6  x_4_7  x_4_8  x_4_9  
+ x_4_10  x_4_11  x_4_12  x_4_13  x_4_14  x_5_0  x_5_1  x_5_2  x_5_3  x_5_4  
+ x_5_5  x_5_6  x_5_7  x_5_8  x_5_9  x_5_10  x_5_11  x_5_12  x_5_13  x_5_14  
+ x_6_0  x_6_1  x_6_2  x_6_3  x_6_4  x_6_5  x_6_6  x_6_7  x_6_8  x_6_9  
+ x_6_10  x_6_11  x_6_12  x_6_13  x_6_14  x_7_0  x_7_1  x_7_2  x_7_3  x_7_4  
+ x_7_5  x_7_6  x_7_7  x_7_8  x_7_9  x_7_10  x_7_11  x_7_12  x_7_13  x_7_14  
+ x_8_0  x_8_1  x_8_2  x_8_3  x_8_4  x_8_5  x_8_6  x_8_7  x_8_8  x_8_9  
+ x_8_10  x_8_11  x_8_12  x_8_13  x_8_14  x_9_0  x_9_1  x_9_2  x_9_3  x_9_4  
+ x_9_5  x_9_6  x_9_7  x_9_8  x_9_9  x_9_10  x_9_11  x_9_12  x_9_13  x_9_14 "
+"Amazon needs to assign different types of air conditioners to different warehouse storage areas. Specifically, Amazon has multiple storage areas with capacity limits for each area provided in __apacity.csv_. Predefined values and sizes for each air conditioner type can be found in __roducts.csv_. The number of air conditioners of the first type cannot exceed 10.The goal is to determine the optimal number of each type of air conditioner to be placed in each storage area to maximise the total value of air conditioners in all areas while ensuring that the total size of air conditioning units in each area does not exceed its capacity. The decision variable x_i_j represents the number of units of the jth type of air conditioner to be placed in the ith storage area.","RA_example/AmazonProductsSalesDataset2023/Capacity.csv
+RA_example/AmazonProductsSalesDataset2023/Products.csv",
+"In the context of retail sales, the store needs to allocate various types of products into different display shelves. Specifically, the store has several display shelves, each with a capacity limit provided in __apacity.csv._ The predefined value and weight of each product can be found in __roducts.csv._ The objective is to determine the optimal number of units of each product to place on each display shelf to maximize the total value of the products across all shelves while ensuring that the total weight of the products on each shelf does not exceed its capacity. The decision variables x_{ij} represent the number of units of product j to be placed on shelf i.","RA_example/RetailSalesAnalysis/Capacity.csv
+RA_example/RetailSalesAnalysis/Products.csv",
+"In retail, shops need to allocate various types of products to different displays. Specifically, the shop has multiple displays and the capacity limit for each display is provided in __apacity.csv_. The predetermined value and weight of each product can be found in __roducts.csv_. The quantity of the first one cannot be less than 5. Our goal is to determine the optimal number of each product to be placed on each display to maximise the total value of the products on all the displays, while ensuring that the total weight of the products on each display does not exceed its capacity. The decision variable x_{ij} represents the number of products j to be placed on shelf i. The decision variable x_{ij} is the number of products j to be placed on shelf i.","RA_example/RetailSalesAnalysis/Capacity.csv
+RA_example/RetailSalesAnalysis/Products.csv",
+"A coffee retail store needs to allocate some types of coffee products __nto different retail cabinets. Specifically, the store has some cabinets, each with a capacity limit provided in ""capacity.csv."" The predefined value and weight of each coffee product can be found in ""products.csv."" The objective is to determine the optimal number of units of each coffee product to place in each cabinet to maximize the total value of the products across all cabinets, while ensuring that the total weight of the coffee in each cabinet does not exceed its capacity. The decision variables x_ij represent the number of units of coffee product j to be placed in cabinet i.","RA_example/CoffeeChainSalesAnalysis/Capacity.csv
+RA_example/CoffeeChainSalesAnalysis/Products.csv",
+"A coffee retail shop needs to allocate certain types of coffee products to different retail cabinets. Specifically, the shop has a number of cabinets, each with a capacity limit provided in __apacity.csv_. The predefined value and weight of each coffee product can be found in __roducts.csv_. The first and fifth of these coffees cannot be selected at the same time. Our goal is to determine the optimal number of each coffee product to be placed in each cabinet to maximise the total value of the products in all cabinets, while ensuring that the total weight of coffee in each cabinet does not exceed its capacity. The decision variable x_ij represents the number of coffee products j to be placed in cabinet i. The decision variable x_ij represents the number of coffee products j to be placed in cabinet i.","RA_example/CoffeeChainSalesAnalysis/Capacity.csv
+RA_example/CoffeeChainSalesAnalysis/Products.csv",
+"In the context of a bookstore, the store needs to allocate various types of books into different bookshelves. Specifically, the store has several bookshelves, each with a capacity limit provided in __apacity.csv._ The predefined value and weight of each book can be found in __roducts.csv._ The objective is to determine the optimal number of units of each book to place on each bookshelf to maximize the total value of the books across all bookshelves while ensuring that the total weight of the books on each bookshelf does not exceed its capacity. The decision variables x_{ij} represent the number of units of book j to be placed on bookshelf i.","RA_example/BooksSalesAndRatings/Capacity.csv
+RA_example/BooksSalesAndRatings/Products.csv",
+"In a bookstore, the bookstore needs to allocate various types of books to different shelves. Specifically, the bookstore has multiple shelves and the capacity limit for each shelf is provided in __apacity.csv_. The predefined value and weight of each book can be found in __roducts.csv_. The total weight of the first book cannot exceed 50.Our goal is to determine the optimal number of each book to be placed on each shelf to maximise the total value of the books on all shelves, while ensuring that the total weight of the books on each shelf does not exceed its capacity. The decision variable x_{ij} represents the number of j books to be placed on i bookshelves.","RA_example/BooksSalesAndRatings/Capacity.csv
+RA_example/BooksSalesAndRatings/Products.csv",
+"In the context of BigMart Sales, the store needs to allocate various types of products into different display shelves. Specifically, the store has several shelves, each with a capacity limit provided in __apacity.csv._ The predefined value and weight of each product can be found in __roducts.csv._ The objective is to determine the optimal number of units of each product to place on each shelf to maximize the total value of the products across all shelves, while ensuring that the total weight of the products on each shelf does not exceed its capacity. The decision variables x_{ij} represent the number of units of product j to be placed on shelf i.","RA_example/BigMartSalesData/Capacity.csv
+RA_example/BigMartSalesData/Products.csv",
+"In BigMart sales, shops need to allocate various types of products to different display shelves. Specifically, the shop has multiple shelves and the capacity limit for each shelf is provided in __apacity.csv_. The predetermined value and weight of each product can be found in __roducts.csv_. Ordering the first product necessitates ordering the second product. The goal is to determine the optimal number of each product to be placed on each shelf in order to maximise the total value of the products on all shelves, while ensuring that the total weight of the products on each shelf does not exceed its capacity. The decision variable x_{ij} denotes the number of products j to be placed on shelf i. The decision variable x_{ij} is the number of products j to be placed on each shelf.","RA_example/BigMartSalesData/Capacity.csv
+RA_example/BigMartSalesData/Products.csv",
+"A boat dealership needs to allocate different types of boats__uch as speedboats, fishing boats, catamarans, etc.__nto different display areas. Specifically, the dealership has several display areas, each with a capacity limit provided in __apacity.csv._ The predefined value and size of each boat type can be found in __roducts.csv._ The objective is to determine the optimal number of units of each boat type to place in each display area to maximize the total value of the boats across all areas, while ensuring that the total size of the boats in each area does not exceed its capacity. The decision variables x_{ij} represent the number of units of boat type j to be placed in display area i.","RA_example/BoatSales/Capacity.csv
+RA_example/BoatSales/Products.csv",
+"A boat dealership needs to assign different types of boats (e.g. speedboats, fishing boats, catamarans, etc.) to different display areas. Specifically, the boat dealer has several display areas, and the capacity limit for each display area is provided in __apacity.csv_. Predefined values and dimensions for each vessel type can be found in __roducts.csv_. The number of the first type of vessel must exceed 3. Our goal is to determine the optimal number of each vessel type to place in each showcase to maximise the total value of the vessels in all showcases, while ensuring that the total size of the vessels in each showcase does not exceed its capacity. The decision variable x_{ij} denotes the number of vessels of type j to be placed in display area i. The decision variable x_{ij} is the number of vessels of type j to be placed in display area i.","RA_example/BoatSales/Capacity.csv
+RA_example/BoatSales/Products.csv",
+"A digital game store needs to decide which games to list on different platforms, considering that these games belong to various genres such as racing, sports, and others. Each platform has a limited memory capacity, with specific details provided in ""capacity.csv."" The predefined value and memory requirement of each game are available in ""products.csv."" The objective is to determine which genres and how many units of each game to list on each platform to maximize the total value of the games across all platforms, while ensuring that the total memory usage on each platform does not exceed its capacity. The decision variables  x_ij represent the number of units of games from genres j (e.g.,sports) to be listed on platform i. ","RA_example/VideoGameSalesWithRatings/Capacity.csv
+RA_example/VideoGameSalesWithRatings/Products.csv",
+"Considering that these games belong to different genres such as racing, sports, etc., digital game shops need to decide which games to list on different platforms. Each platform has a limited memory capacity, details of which can be found in __apacity.csv_. Predefined values and memory requirements for each game can be found in __roducts.csv_. The number of games of the first type cannot exceed 10.Our goal is to determine which types of games and the number of each game to list on each platform in order to maximise the total value of the game across all platforms, while ensuring that the total memory usage of each platform does not exceed its capacity. The decision variable x_ij represents the number of games of type j (e.g., sports) to be listed on platform i. ","RA_example/VideoGameSalesWithRatings/Capacity.csv
+RA_example/VideoGameSalesWithRatings/Products.csv",

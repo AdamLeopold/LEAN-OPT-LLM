@@ -1,0 +1,79 @@
+Product Name,Revenue,Demand,Initial Inventory
+Barista Espresso 2.1,2.1,1746.0,4910.0
+Barista Espresso 3.0,3.0,10716.0,32225.0
+Barista Espresso 3.75,3.75,14743.0,44340.0
+Barista Espresso 4.25,4.25,14400.0,43240.0
+Biscotti 3.25,3.25,3995.0,10035.0
+Biscotti 3.5,3.5,7404.0,18655.0
+Biscotti 4.06,4.06,42.0,105.0
+Biscotti 4.38,4.38,58.0,145.0
+Black tea 8.95,8.95,606.0,1515.0
+Brewed Black tea 2.5,2.5,14786.0,44540.0
+Brewed Black tea 3.0,3.0,14194.0,42770.0
+Brewed Chai tea 2.5,2.5,15217.0,45775.0
+Brewed Chai tea 2.55,2.55,6913.0,20855.0
+Brewed Chai tea 3.0,3.0,6921.0,20870.0
+Brewed Chai tea 3.1,3.1,7392.0,22020.0
+Brewed Chai tea 4.0,4.0,7225.0,21730.0
+Brewed Green tea 2.5,2.5,7456.0,22385.0
+Brewed Green tea 3.0,3.0,7003.0,21100.0
+Brewed herbal tea 2.5,2.5,14729.0,44445.0
+Brewed herbal tea 3.0,3.0,14037.0,42195.0
+Chai tea 10.95,10.95,244.0,610.0
+Chai tea 8.95,8.95,306.0,765.0
+Chai tea 9.5,9.5,336.0,840.0
+Clothing 23.0,23.0,10.0,25.0
+Clothing 28.0,28.0,432.0,1080.0
+Drinking Chocolate 13.33,13.33,296.0,740.0
+Drinking Chocolate 6.4,6.4,236.0,590.0
+Drip coffee 2.0,2.0,7439.0,22420.0
+Drip coffee 2.5,2.5,7366.0,22050.0
+Drip coffee 3.0,3.0,6686.0,19985.0
+Espresso Beans 14.75,14.75,338.0,845.0
+Espresso Beans 20.45,20.45,300.0,750.0
+Gourmet Beans 15.0,15.0,296.0,740.0
+Gourmet Beans 21.0,21.0,436.0,1090.0
+Gourmet brewed coffee 2.0,2.0,6936.0,20890.0
+Gourmet brewed coffee 2.2,2.2,7315.0,22165.0
+Gourmet brewed coffee 2.5,2.5,7610.0,22735.0
+Gourmet brewed coffee 3.0,3.0,14282.0,42940.0
+Gourmet brewed coffee 3.5,3.5,6999.0,21135.0
+Green beans 10.0,10.0,268.0,670.0
+Green tea 9.25,9.25,318.0,795.0
+Herbal tea 8.95,8.95,610.0,1525.0
+Hot chocolate 3.5,3.5,6679.0,20035.0
+Hot chocolate 3.75,3.75,7201.0,21645.0
+Hot chocolate 4.5,4.5,7738.0,23340.0
+Hot chocolate 4.75,4.75,7442.0,22265.0
+House blend Beans 18.0,18.0,366.0,915.0
+Housewares 12.0,12.0,457.0,1175.0
+Housewares 14.0,14.0,598.0,1520.0
+Housewares 23.0,23.0,32.0,80.0
+Organic Beans 12.0,12.0,14.0,35.0
+Organic Beans 18.0,18.0,423.0,1070.0
+Organic Beans 22.5,22.5,354.0,885.0
+Organic Beans 23.0,23.0,10.0,25.0
+Organic Beans 28.0,28.0,34.0,85.0
+Organic Chocolate 7.6,7.6,442.0,1105.0
+Organic brewed coffee 2.2,2.2,7173.0,21550.0
+Organic brewed coffee 3.0,3.0,7325.0,21925.0
+Organic brewed coffee 3.5,3.5,7128.0,21585.0
+Pastry 3.5,3.5,3835.0,9640.0
+Pastry 3.75,3.75,9948.0,24940.0
+Pastry 4.38,4.38,52.0,130.0
+Pastry 4.69,4.69,38.0,95.0
+Premium Beans 19.75,19.75,292.0,730.0
+Premium Beans 45.0,45.0,477.0,1300.0
+Premium brewed coffee 2.45,2.45,6686.0,20090.0
+Premium brewed coffee 3.1,3.1,6651.0,20090.0
+Premium brewed coffee 3.75,3.75,7338.0,21975.0
+Regular syrup 0.8,0.8,12623.0,38030.0
+Scone 2.65,2.65,731.0,2170.0
+Scone 3.0,3.0,3632.0,9100.0
+Scone 3.25,3.25,8225.0,20765.0
+Scone 3.75,3.75,3990.0,10025.0
+Scone 4.06,4.06,90.0,225.0
+Scone 4.5,4.5,3907.0,9850.0
+Scone 4.69,4.69,46.0,115.0
+Scone 5.63,5.63,30.0,75.0
+Sugar free syrup 0.8,0.8,4759.0,14525.0

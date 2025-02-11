@@ -1,0 +1,13 @@
+Maximize
+11197 x_0 + 9097 x_1 + 11197 x_2 + 9995 x_3
+Subject To
+inventory_constraint: x_0 <= 97
+demand_constraint: x_0 <= 17
+x_1 <= 240
+x_1 <= 26
+x_2 <= 322
+x_2 <= 50
+x_3 <= 281
+x_3 <= 53
+startup_constraint:
+x_0+x_1+x_2+x_3 >=100
