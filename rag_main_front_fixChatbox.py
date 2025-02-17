@@ -288,8 +288,8 @@ if uploaded_files:
 
                 if selected_problem == "Resource Allocation":
 
-                    informationC = pd.read_csv('RA_example/Capacity.csv')
-                    informationP = pd.read_csv('RA_example/Products.csv')
+                    informationC = pd.read_csv('RA_example/capacity.csv')
+                    informationP = pd.read_csv('RA_example/products.csv')
                     information = []
                     information.append(informationC)
                     information.append(informationP)
