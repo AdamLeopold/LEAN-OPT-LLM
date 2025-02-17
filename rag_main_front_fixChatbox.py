@@ -313,7 +313,7 @@ if uploaded_files:
                     # 构建 problem_description 和 label
                     problem_description = 'A supermarket needs to allocate various products, including high-demand items like the Sony Alpha Refrigerator, Sony Bravia XR, and Sony PlayStation 5, across different retail shelves. The product values and space requirements are provided in the "Products.csv" dataset. Additionally, the store has multiple shelves, each with a total space limit and specific space constraints for Sony and Apple products, as outlined in the "Capacity.csv" file. The goal is to determine the optimal number of units of each Sony product to place on each shelf to maximize total value while ensuring that the space used by Sony products on each shelf does not exceed the brand-specific limits. The decision variables x_ij represent the number of units of product i to be placed on shelf j.'
 
-                    with open('RA_example/Sony.txt', 'r', encoding='utf-8') as file:
+                    with open('RA_example/sony.txt', 'r', encoding='utf-8') as file:
                         label = file.read()
 
                     few_shot_examples = f"""
