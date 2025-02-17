@@ -123,44 +123,12 @@ if uploaded_files:
 
     openai.api_request_timeout = 60  # 将超时时间设置为60秒
 
-    st.markdown("""
-    <style>
-    /* 固定输入框在底部 */
-    .fixed-bottom {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: white;
-        padding: 1rem;
-        z-index: 999;
-        box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
-    }
-
-    /* 消息容器留出底部空间 */
-    .message-container {
-        padding-bottom: 200px;  /* 根据输入框高度调整 */
-        overflow-y: auto;
-    }
-    </style>
-    """, unsafe_allow_html=True)
-    # 初始化会话状态（精简版）
-    # if 'generated' not in st.session_state:
-    #     st.session_state.generated = []
-    #
-    # if 'past' not in st.session_state:
-    #     st.session_state.past = []
 
     if 'first_run' not in st.session_state:
         st.session_state.first_run = True
 
     # 容器定义
     response_container = st.container()  # 响应展示区
-    with response_container:
-        response_container.markdown('<div class="message-container">', unsafe_allow_html=True)
-        # 这里会显示历史消息
-        response_container.markdown('</div>', unsafe_allow_html=True)
-
     input_container = st.container()  # 输入区
 
     # 欢迎消息（仅首次显示）
@@ -583,8 +551,6 @@ if uploaded_files:
 
     # 用户输入处理
     with input_container:
-        input_container.markdown('<div class="fixed-bottom">', unsafe_allow_html=True)
-
         with st.form(key='chat_form', clear_on_submit=True):
             user_input = st.text_area(
                 "Query:",
@@ -593,8 +559,6 @@ if uploaded_files:
                 key='input'
             )
             submit_button = st.form_submit_button(label='Send')
-
-        input_container.markdown('</div>', unsafe_allow_html=True)
 
     if submit_button and user_input:
         process_user_input(user_input, agent1, response_container, dfs)
