@@ -14,8 +14,10 @@ import openai
 import os
 import pandas as pd
 
-user_api_key="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"
-
+user_api_key = st.sidebar.text_input(
+    label="#### Your OpenAI API key 👇",
+    placeholder="Paste your openAI API key, sk-",
+    type="password")
 uploaded_files = st.sidebar.file_uploader("upload", type="csv", accept_multiple_files=True)
 
 if uploaded_files:
